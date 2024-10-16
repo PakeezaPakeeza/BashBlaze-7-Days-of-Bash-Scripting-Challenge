@@ -7,6 +7,8 @@ while true; do
     # List all files and directories in the current path
     echo "Files and Directories in the Current Path:"
     ls -lh
+    #pause for 5 seconds between each listing to prevent spamming the terminal
+    sleep 5 
 
     # Part 2: Character Counting
     read -p "Enter a line of text (Press Enter without text to exit): " input
